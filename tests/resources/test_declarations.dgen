@@ -1,0 +1,20 @@
+number x = 10;
+number y;
+boolean isActive = true;
+string message = "Hello, World!";
+
+y = x + 5;
+message = "Updated message";
+
+x = x - 2;
+x = x * 2;
+y = y / 2;
+y = y % 3;
+
+if (x > y) {
+    isActive = false;
+} else {
+    isActive = true;
+}
+
+return x;

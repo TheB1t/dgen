@@ -1,0 +1,38 @@
+number choice = 2;
+string resultMessage = "Unknown case";
+
+switch (choice) {
+    case 1: {
+        resultMessage = "You selected case 1.";
+    }
+
+    case 2: {
+        resultMessage = "You selected case 2.";
+    }
+
+    case 3: {
+        resultMessage = "You selected case 3.";
+    }
+
+    default: {
+        resultMessage = "Invalid choice.";
+    }
+}
+
+number operation = 1;
+number result = 0;
+switch (operation) {
+    case 1: {
+        result = 5 + 3;
+    }
+
+    case 2: {
+        result = 5 * 3;
+    }
+
+    default: {
+        result = 0;
+    }
+}
+
+return result;

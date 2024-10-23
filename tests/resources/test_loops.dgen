@@ -1,0 +1,25 @@
+number sum = 0;
+for (number i = 0; i < 5; i = i + 1) {
+    sum = sum + i;
+}
+
+number product = 1;
+for (number i = 0; i < 3; i = i + 1) {
+    for (number j = 0; j < 2; ++j) {
+        product = product * (i + j);
+    }
+}
+
+number evenSum = 0;
+for (number i = 0; i < 10; i++) {
+    if (i % 2 == 0) {
+        evenSum = evenSum + i;
+    }
+}
+
+number arr[3] = [1, 2, 3];
+for (number n in arr) {
+    sum = sum + n;
+}
+
+return sum;

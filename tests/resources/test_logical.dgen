@@ -1,0 +1,12 @@
+boolean a = true;
+boolean b = false;
+boolean result;
+
+result = a && b;
+result = a || b;
+result = !a;
+
+result = (a && b) || !a;
+result = !(a || b);
+
+return result;

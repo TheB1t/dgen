@@ -1,0 +1,10 @@
+struct teststruct {
+    number a;
+    number b;
+    number c;
+}
+
+teststruct test;
+test.a = 1;
+test.b = 2;
+test.c = 3;

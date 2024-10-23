@@ -1,0 +1,14 @@
+number add(number a, number b) {
+    return a + b;
+}
+
+number multiply(number a, number b) {
+    return a * b;
+}
+
+number sumResult = add(5, 3);
+number prodResult = multiply(4, 2);
+
+number finalResult = add(sumResult, prodResult);
+
+return finalResult;
